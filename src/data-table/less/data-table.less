@@ -1,0 +1,70 @@
+/*FixedDataTable hacks below...*/
+.public_fixedDataTableCell_cellContent {
+	padding: 7px 14px 7px 14px;
+}
+/*Header*/
+.public_fixedDataTableCell_cellContent_selectable {
+	text-align: center;
+}
+.public_fixedDataTableCell_cellContent_sortable {
+	cursor: pointer;
+}
+.public_fixedDataTableCell_cellContent_sortable:hover {
+	border-color: #006600;
+	border-bottom-color: #333300;
+	background: linear-gradient(#82CC82, #009900);
+}
+.public_fixedDataTable_header {
+	color: #555555;
+}
+.public_fixedDataTableRow_main.public_fixedDataTable_header .public_fixedDataTableCell_main {
+	background: linear-gradient(#009900, #82CC82);
+	color: #e2e2e2;
+}
+.public_fixedDataTableRow_main.public_fixedDataTable_header .public_fixedDataTableCell_main .ico-sort-asc {
+	border-bottom: 6px solid #e2e2e2;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	position: absolute;
+	top: 14px;
+	right: 14px;
+}
+.public_fixedDataTableRow_main.public_fixedDataTable_header .public_fixedDataTableCell_main .ico-sort-desc {
+	border-top: 6px solid #e2e2e2;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	position: absolute;
+	top: 14px;
+	right: 14px;
+}
+/*Rows*/
+.public_fixedDataTableCell_main {
+	background-color: transparent;
+}
+.public_fixedDataTableRow_highlighted .public_fixedDataTableCell_main {
+	background-color: transparent;
+}
+.public_fixedDataTableRow_highlighted {
+	background-color: #D0E6D0;
+}
+.public_fixedDataTable_bodyRow:hover {
+	background-color: #82CC82;
+}
+
+/*Loading bar*/
+.data-table-loading-bar {
+	margin-left: 1px;
+	height: 7px;
+	width: ~"calc(100% - 1px)";
+	background: url("./loading.gif") repeat-x;
+}
+
+.empty-data-table-loading-bar {
+	height: 7px;
+}
+
+.empty-data-table-message {
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}

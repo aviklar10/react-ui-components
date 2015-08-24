@@ -6,6 +6,17 @@ A set of React extended UI components based on Facebook's FixedDataTable and Rea
 
 ![React UI Components](screenshot.jpg)
 
+### Extended FixedDataTable features
+
+* lazy loading
+* multiple selection
+* async column sorting
+* auto width
+* percentage column widths
+* async filtering
+* loading progress
+* no data custom message
+
 ### Install
 
 ```sh

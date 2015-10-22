@@ -1,5 +1,6 @@
 {
 	"name": "ReactUIComponents",
+	"version": "0.0.0",
 	"description": "A set of React extended UI components based on Facebook's FixedDataTable and ReactWidgets open-source libraries",
 	"scripts": {
 		"build": "webpack",

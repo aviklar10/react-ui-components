@@ -42,3 +42,8 @@ npm run examples
 ```
 
 Open the following page in the browser: http://localhost:8118/examples
+
+### License
+
+The Extended FixedDataTable component is based on Facebook's Fixed Data Tables https://github.com/facebook/fixed-data-table, which is licensed BSD
+The Extended DropdownList component is based on Jason Quense's React Widgets, which are licensed MIT
